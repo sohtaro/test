@@ -3,7 +3,7 @@
   <channel>
       <title>Posts on My New Hugo Site </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://example.org/post/</link>
+    <link>http://blogrammers.net/test/post/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>first</title>
-      <link>http://example.org/post/first/</link>
+      <link>http://blogrammers.net/test/post/first/</link>
       <pubDate>Sat, 13 May 2017 12:16:33 JST</pubDate>
       
-      <guid>http://example.org/post/first/</guid>
+      <guid>http://blogrammers.net/test/post/first/</guid>
       <description>&lt;p&gt;テスト記事です。&lt;/p&gt;
 
 &lt;p&gt;以上&lt;/p&gt;

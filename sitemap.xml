@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.org/post/first/</loc>
+    <loc>http://blogrammers.net/test/post/first/</loc>
     <lastmod>2017-05-13T12:16:33+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://blogrammers.net/test/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2017-05-13T12:16:33+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/post/</loc>
+    <loc>http://blogrammers.net/test/</loc>
     <lastmod>2017-05-13T12:16:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://blogrammers.net/test/post/</loc>
+    <lastmod>2017-05-13T12:16:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blogrammers.net/test/tags/</loc>
     <priority>0</priority>
   </url>
   
