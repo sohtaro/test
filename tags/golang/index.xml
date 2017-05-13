@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>My New Hugo Site on My New Hugo Site </title>
+      <title>Golang on My New Hugo Site </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>http://blogrammers.net/test/</link>
+    <link>http://blogrammers.net/test/tags/golang/</link>
     <language>en-us</language>
     
     
@@ -30,18 +30,6 @@ bbbb&lt;/p&gt;
 &lt;li&gt;123&lt;/li&gt;
 &lt;li&gt;456&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>first</title>
-      <link>http://blogrammers.net/test/post/first/</link>
-      <pubDate>Sat, 13 May 2017 12:16:33 JST</pubDate>
-      
-      <guid>http://blogrammers.net/test/post/first/</guid>
-      <description>&lt;p&gt;テスト記事です。&lt;/p&gt;
-
-&lt;p&gt;以上&lt;/p&gt;
 </description>
     </item>
     

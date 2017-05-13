@@ -7,7 +7,25 @@
     <language>en-us</language>
     
     
-    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    <updated>Sat, 13 May 2017 12:37:42 JST</updated>
+    
+    <item>
+      <title>Development</title>
+      <link>http://blogrammers.net/test/tags/development/</link>
+      <pubDate>Sat, 13 May 2017 12:37:42 JST</pubDate>
+      
+      <guid>http://blogrammers.net/test/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>http://blogrammers.net/test/tags/golang/</link>
+      <pubDate>Sat, 13 May 2017 12:37:42 JST</pubDate>
+      
+      <guid>http://blogrammers.net/test/tags/golang/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
