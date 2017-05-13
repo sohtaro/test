@@ -7,7 +7,42 @@
     <language>en-us</language>
     
     
-    <updated>Sat, 13 May 2017 12:37:42 JST</updated>
+    <updated>Sat, 13 May 2017 14:31:34 JST</updated>
+    
+    <item>
+      <title>Hugoインストール</title>
+      <link>http://blogrammers.net/test/post/hugo/</link>
+      <pubDate>Sat, 13 May 2017 14:31:34 JST</pubDate>
+      
+      <guid>http://blogrammers.net/test/post/hugo/</guid>
+      <description>
+
+&lt;p&gt;このサイトはHugoを使用して作成しています。&lt;br /&gt;
+Hugoとは静的なHTMLを生成する静的ページジェネレータでGoogleのGo言語で作られています。
+他にもJekyllやHexoなどのツールがあるようですがHugoは非常に高速ということで使用することにしました。Windows7とCentOS6にインストールしました。&lt;/p&gt;
+
+&lt;h1 id=&#34;インストール&#34;&gt;インストール&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Windows7の場合&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;CentOS6の場合&lt;br /&gt;
+&lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;Hugo Releases&lt;/a&gt;のDownloadsで自分の環境にあうファイルをダウンロードし、バイナリを/usr/local/binに置く。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$wget https://github.com/spf13/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-32bit.tar.gz  
+$tar -zxf hugo_0.20.7_Linux-32bit.tar.gz  
+$sudo mv hugo /usr/local/bin/hugo  
+$hugo version  # バージョン確認(以下のように表示されればOK)
+Hugo Static Site Generator v0.20.7 linux/386 BuildDate: 2017-05-03T16:39:25+09:00
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;参考&#34;&gt;参考&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.study-hugo.com/&#34;&gt;Let&amp;rsquo;s study HUGO!!&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://www.philosophyguides.org/from-jekyll-to-hugo/#hugo%E5%85%AC%E5%BC%8F%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E3%81%AE%E4%B8%BB%E8%A6%81%E3%82%B3%E3%83%BC%E3%83%8A%E3%83%BC%E3%81%B8%E3%81%AE%E3%83%AA%E3%83%B3%E3%82%AF&#34;&gt;JekyllからHugoに移行しました&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>second</title>

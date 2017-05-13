@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blogrammers.net/test/post/hugo/</loc>
+    <lastmod>2017-05-13T14:31:34+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blogrammers.net/test/post/second/</loc>
     <lastmod>2017-05-13T12:37:42+09:00</lastmod>
   </url>
@@ -18,43 +23,43 @@
   
   <url>
     <loc>http://blogrammers.net/test/tags/development/</loc>
-    <lastmod>2017-05-13T12:37:42+09:00</lastmod>
+    <lastmod>2017-05-13T14:31:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blogrammers.net/test/categories/development/</loc>
-    <lastmod>2017-05-13T12:37:42+09:00</lastmod>
+    <lastmod>2017-05-13T14:31:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blogrammers.net/test/tags/golang/</loc>
-    <lastmod>2017-05-13T12:37:42+09:00</lastmod>
+    <lastmod>2017-05-13T14:31:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blogrammers.net/test/categories/golang/</loc>
-    <lastmod>2017-05-13T12:37:42+09:00</lastmod>
+    <lastmod>2017-05-13T14:31:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blogrammers.net/test/</loc>
-    <lastmod>2017-05-13T12:37:42+09:00</lastmod>
+    <lastmod>2017-05-13T14:31:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blogrammers.net/test/post/</loc>
-    <lastmod>2017-05-13T12:37:42+09:00</lastmod>
+    <lastmod>2017-05-13T14:31:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blogrammers.net/test/tags/</loc>
-    <lastmod>2017-05-13T12:37:42+09:00</lastmod>
+    <lastmod>2017-05-13T14:31:34+09:00</lastmod>
     <priority>0</priority>
   </url>
   

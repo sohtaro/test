@@ -1,11 +1,10 @@
-    <!DOCTYPE html>
+  <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.20.7" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <title> My New Hugo Site &middot; My New Hugo Site </title>
+    <title> Hugoインストール &middot; My New Hugo Site </title>
     
     <link rel="stylesheet" type="text/css" href="http://blogrammers.net/test//css/uno.min.css" />
     <link rel="stylesheet" type="text/css" href="http://blogrammers.net/test//css/lightGallery.css" />
@@ -13,24 +12,22 @@
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
     <link rel="shortcut icon" href="/favicon.ico">
     
-    <link href="http://blogrammers.net/test/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+    <link href="" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
     
     <script src="http://blogrammers.net/test//js/jquery.min.js"></script>
     <script src="http://blogrammers.net/test//js/main.min.js">
     </script>
 </head>
 
-    <body>
-        <div id="scriptHeader">
+  <body>
+    <div id="scriptHeader">
     <span class="mobile btn-mobile-menu">
             <i class="fa fa-bars btn-mobile-menu__icon"></i>
             <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
     </span>
     <header class="
         
-        
-                panel-cover
-        
+            panel-cover panel-cover--collapsed
         " >
     <div class="panel-main">
         <div class="panel-main__inner panel-inverted">
@@ -95,82 +92,59 @@
     </header>
 </noscript>
 
-        <div class="content-wrapper">
-            <div class="content-wrapper__inner">
-                <section id="main">
-                    <div>
-                        
-                            
-                                <article class="post">
-<header>
-<h2><a href="http://blogrammers.net/test/post/hugo/">Hugoインストール </a> </h2>
-<div class="post-meta">Sat, May 13, 2017 - Read in 1 Min </div>
-</header>
-<div class="summary">
-    このサイトはHugoを使用して作成しています。
-Hugoとは静的なHTMLを生成する静的ページジェネレータでGoogleのGo言語で作られています。 他にもJekyllやHexoなどのツールがあるようですがHugoは非常に高速ということで使用することにしました。Windows7とCentOS6にインストールしました。
-インストール  Windows7の場合
- CentOS6の場合
-Hugo ReleasesのDownloadsで自分の環境にあうファイルをダウンロードし、バイナリを/usr/local/binに置く。
-  $wget https://github.com/spf13/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-32bit.tar.gz $tar -zxf hugo_0.20.7_Linux-32bit.tar.gz $sudo mv hugo /usr/local/bin/hugo $hugo version # バージョン確認(以下のように表示されればOK) Hugo Static Site Generator v0.20.7 linux/386 BuildDate: 2017-05-03T16:39:25+09:00  参考 Let&rsquo;s study HUGO!!
-JekyllからHugoに移行しました
-</div>
-<footer>
-<a href='http://blogrammers.net/test/post/hugo/'><nobr>Read more →</nobr></a>
-</footer>
-</article>
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <div class="post">
+          <h1>Hugoインストール</h1>
+          <span class="post-date">Sat, May 13, 2017</span>
+          
 
+<p>このサイトはHugoを使用して作成しています。<br />
+Hugoとは静的なHTMLを生成する静的ページジェネレータでGoogleのGo言語で作られています。
+他にもJekyllやHexoなどのツールがあるようですがHugoは非常に高速ということで使用することにしました。Windows7とCentOS6にインストールしました。</p>
 
-                            
-                        
-                            
-                                <article class="post">
-<header>
-<h2><a href="http://blogrammers.net/test/post/second/">second </a> </h2>
-<div class="post-meta">Sat, May 13, 2017 - Read in 1 Min </div>
-</header>
-<div class="summary">
-     見出し1 aaaaaコンテンツ
-aaaa
-bbbb
-見出し2  123 456  
-</div>
-<footer>
-<a href='http://blogrammers.net/test/post/second/'><nobr>Read more →</nobr></a>
-</footer>
-</article>
+<h1 id="インストール">インストール</h1>
 
+<ul>
+<li><p>Windows7の場合</p></li>
 
-                            
-                        
-                            
-                                <article class="post">
-<header>
-<h2><a href="http://blogrammers.net/test/post/first/">first :: DRAFT</a> </h2>
-<div class="post-meta">Sat, May 13, 2017 - Read in 1 Min </div>
-</header>
-<div class="summary">
-    テスト記事です。
-以上
-</div>
-<footer>
-<a href='http://blogrammers.net/test/post/first/'><nobr>Read more →</nobr></a>
-</footer>
-</article>
+<li><p>CentOS6の場合<br />
+<a href="https://github.com/spf13/hugo/releases">Hugo Releases</a>のDownloadsで自分の環境にあうファイルをダウンロードし、バイナリを/usr/local/binに置く。</p></li>
+</ul>
 
+<pre><code>$wget https://github.com/spf13/hugo/releases/download/v0.20.7/hugo_0.20.7_Linux-32bit.tar.gz  
+$tar -zxf hugo_0.20.7_Linux-32bit.tar.gz  
+$sudo mv hugo /usr/local/bin/hugo  
+$hugo version  # バージョン確認(以下のように表示されればOK)
+Hugo Static Site Generator v0.20.7 linux/386 BuildDate: 2017-05-03T16:39:25+09:00
+</code></pre>
 
-                            
-                        
-                    </div>
-                    </br>
-                    <h4>
-                        <a href="http://blogrammers.net/test//post/">Archive</a>
-                    </h4>
-                </section>
-            </div>
+<h1 id="参考">参考</h1>
+
+<p><a href="http://www.study-hugo.com/">Let&rsquo;s study HUGO!!</a><br />
+<a href="https://www.philosophyguides.org/from-jekyll-to-hugo/#hugo%E5%85%AC%E5%BC%8F%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E3%81%AE%E4%B8%BB%E8%A6%81%E3%82%B3%E3%83%BC%E3%83%8A%E3%83%BC%E3%81%B8%E3%81%AE%E3%83%AA%E3%83%B3%E3%82%AF">JekyllからHugoに移行しました</a></p>
+
         </div>
-        <footer class="footer"></footer>
-
+        <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=Hugo%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab-http%3a%2f%2fblogrammers.net%2ftest%2fpost%2fhugo%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fblogrammers.net%2ftest%2fpost%2fhugo%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fblogrammers.net%2ftest%2fpost%2fhugo%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fblogrammers.net%2ftest%2fpost%2fhugo%2f&title=Hugo%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fblogrammers.net%2ftest%2fpost%2fhugo%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fblogrammers.net%2ftest%2fpost%2fhugo%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
         
-    </body>
+
+
+
+      </div>
+    </div>
+
+  </body>
+  
 </html>
